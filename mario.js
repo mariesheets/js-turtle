@@ -30,14 +30,9 @@ function main()
 
     goto(0,0);
 
-    questionBlock();
-    strafe(sideLength/4);
-    
+    questionBlock();    
 }
 
-function changeBackground(color){
-    document.body.style.background = (115, 215, 255,1)
-}
 // QUESTION BLOCK by Marie Sheets
 
 function questionBlock(sideLength){
